@@ -26,6 +26,7 @@ html {
 .section-one .nav {
     height: 2em;
     width: 100%;
+    position: static;
 }
 
 .section-one .nav ul {
