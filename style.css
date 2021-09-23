@@ -101,7 +101,11 @@ html {
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        margin: 2em .5em;
+}
+
+.section-two .me {
+    margin: 19em 4em;
+    text-align: center;
 }
 
 .section-two .about {
