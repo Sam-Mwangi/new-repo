@@ -12,11 +12,15 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .section-one {
    height: 100vh;
-   background: #AA076B;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to bottom, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to bottom, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background-image: url('6.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 .section-one .nav {
@@ -67,6 +71,7 @@ body {
 .intro p {
     font-style: italic;
     font-size: 19px;
+    color: #fff;
 }
 
 @media screen and (max-width: 700px) {
